@@ -11,7 +11,7 @@ Vue.use(directives)
 
 ```
 
-```js
+```html
 
 <template>
 
@@ -21,7 +21,8 @@ Vue.use(directives)
 
 </template>
 
-
+```
+```js
 <script>
   export default {
     data () {
