@@ -12,6 +12,16 @@ Vue.use(directives)
 ```
 
 ```js
+
+<template>
+
+  <div @click="isActive = !isActive" v-on="isActive">Toggle Show/Hide</div>
+
+  <div v-show="isActive"> Toggleable content</div>
+
+</template>
+
+
 <script>
   export default {
     data () {
@@ -19,9 +29,4 @@ Vue.use(directives)
     },
   };
 </script>
-
-<template>
-<div @click="isActive = !isActive" v-on="isActive">Toggle Show/Hide</div>
-<div v-show="isActive"> Toggleable content</div>
-</template>
 ```
