@@ -1,0 +1,20 @@
+{
+    "name": "v-out",
+    "version": "1.0.0",
+    "description": "VueJs directive to detect if element is clicked outside current Element",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hanzlahabib/v-out.git"
+    },
+    "keywords": ["vue-directive", "v-out directive", "detect outside click"],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hanzlahabib/v-out/issues"
+    },
+    "homepage": "https://github.com/hanzlahabib/v-out#readme"
+}
