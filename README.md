@@ -9,7 +9,19 @@ import directives from 'directive'
 
 Vue.use(directives)
 
+```
 
-<div @click="actionAcive = !actionAcive" v-on="actionActive">Toggle Show/Hide</div>
-<div v-show="actionAcive"></div>
+```js
+<script>
+  export default {
+    data () {
+      isActive: false
+    },
+  };
+</script>
+
+<template>
+<div @click="isActive = !isActive" v-on="isActive">Toggle Show/Hide</div>
+<div v-show="isActive"> Toggleable content</div>
+</template>
 ```
